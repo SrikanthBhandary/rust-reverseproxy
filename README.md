@@ -1,7 +1,9 @@
 # rust-reverseproxy
 Simple reverse proxy for http. This can be used in the scneario where your microservice is behind gateway and not exposed to public.
 
-User can configure the system by simple json config. 
+User can configure the system by simple json config.  Currently, the api gateway is authorizing the request by checking the jwt token expiry. Only the valid tokens are validated and forwaded to the other services. User can configure the JWT_SECRET_KEY in the environment.
+
+Written the code for example purpose. It can be used in production, only to serve http requests. Route fetching can be improved, and any contribution to this is appreciated.
 
 ```
 {
