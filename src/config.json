@@ -1,0 +1,4 @@
+{
+  "/data_service": "http://127.0.0.1:9002",
+  "/repor_tservice": "http://127.0.0.1:9003"
+}
